@@ -1,9 +1,10 @@
 <?php
 /**
  * Hello World !
- * @version 1.1
+ * @version 1.2
  */
 
-echo 'Hello, world !';
+echo 'Hello, world !!!';
+exit(0);
 
 ?>
