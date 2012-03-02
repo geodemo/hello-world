@@ -4,7 +4,7 @@
  * @version 1.2
  */
 
-echo 'Hello, world !!!';
+echo 'Hello, world !!!!!';
 exit(0);
 
 ?>
