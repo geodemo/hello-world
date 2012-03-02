@@ -5,6 +5,7 @@
  */
 
 echo 'Hello, world !!!!!';
+echo 'haha';
 exit(0);
 
 ?>
