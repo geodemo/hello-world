@@ -14,7 +14,7 @@ Installation
 - close Notepad++
 - copy `FunctionListRules.xml` and `php.bmp` into your Notepad++'s `plugins/Config` folder
 
-If you already have some custom language parsing rules and don't want to loose them, don't overwrite `FunctionListRules.xml`. Merge the following blocks with your file :
+If you already have some custom parsing rules and want to keep them, don't overwrite `FunctionListRules.xml` or your rules will be lost. Simply insert the following blocks in your file :
 
 **PHP parsing rules**
 
