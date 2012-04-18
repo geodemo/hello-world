@@ -89,6 +89,7 @@ If you already have some custom language parsing rules and don't want to loose t
         </Group>
     </Language>
 ```
+
 **CSS parsing rules**
 ```xml
     <Language name="CSS" imagelistpath="plugins\Config\php.bmp">
