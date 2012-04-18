@@ -16,19 +16,19 @@ Contact
 
 [Geoffray Warnants](http://www.geoffray.be/blog/php/patch-php5-pour-npp-function-list)
 
-ChangeLog
----------
+ChangeLogg
+----------
 
-**1.0**
-- new: public constructor recognition
-- fix: better methods recognition
-- fix: optimized icons file size
-- now using PCRE regular expressions (require Notepad++ 6.x)
+- **1.0**
+    - new: public constructor recognition
+    - fix: better methods recognition
+    - fix: optimized icons file size
+    - now using PCRE regular expressions (require Notepad++ 6.x)
 
-**0.9.1** - 2012-04-17
-- new: added CSS language parsing rules
-- fix: fixed properties parsing rules since Notepad++ 6.x
-- fix: some minor improvements
+- **0.9.1** - 2012-04-17
+    - new: added CSS language parsing rules
+    - fix: fixed properties parsing rules since Notepad++ 6.x
+    - fix: some minor improvements
 
-**0.9** - 2010-12-11
-- initial release
+- **0.9** - 2010-12-11
+    - initial release
