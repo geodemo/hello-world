@@ -110,8 +110,7 @@ If you already have some custom parsing rules and want to keep them, don't overw
 Contact
 -------
 
-- Author: [Geoffray Warnants](http://geoffray.be)
-[Geoffray Warnants](http://www.geoffray.be), send greetings [here](http://www.geoffray.be/blog/php/patch-php5-pour-npp-function-list) :)
+- [Geoffray Warnants](http://geoffray.be) ([Twitter](http://twitter.com/gwarnants), [Blog post](http://www.geoffray.be/blog/php/patch-php5-pour-npp-function-list))
 
 ChangeLog
 ---------
