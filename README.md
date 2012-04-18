@@ -17,6 +17,7 @@ Installation
 If you already have some custom language parsing rules and don't want to loose them, just copy/paste the following blocks in your `FunctionListRules.xml`.
 
 **PHP parsing rules**
+
 ```xml
     <Language name="PHP" imagelistpath="plugins\Config\php.bmp">
         <CommList param1="#" param2="" />
@@ -86,6 +87,20 @@ If you already have some custom language parsing rules and don't want to loose t
         </Group>
         <Group name="PRIVATE STATIC METHOD" subgroup="" icon="17" child="17" autoexp="4" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
             <Rules regexbeg="^\s*(static\s+(final\s+)?private\s+(final\s+)?|private\s+static\s+(final\s+)?)function\s+" regexfunc="[\w_]+\s*\(.*\)" regexend="\s*" bodybegin="\{" bodyend="\}" sep=";" />
+        </Group>
+    </Language>
+```
+
+**CSS parsing rules**
+
+```xml
+    <Language name="CSS" imagelistpath="plugins\Config\php.bmp">
+        <CommList param1="/\*" param2="\*/" />
+        <Group name="IMPORT" subgroup="" icon="2" child="2" autoexp="4" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg='^\s*@import\s+[\w]*[\s\(&quot;]*\s*' regexfunc="[\w./-]+" regexend="[&quot;\)]+[\w\s,]*;$" bodybegin="" bodyend="" sep=";" />
+        </Group>
+        <Group name="SELECTOR" subgroup="" icon="19" child="19" autoexp="4" matchcase="0" fendtobbeg="" bbegtobend="" keywords="">
+            <Rules regexbeg="^\s*[\w.#\s:\[\]=~\*,\+&gt;-]+\s*" regexfunc="[\w.#\s:\[\]=~\*,\+&gt;-]*" regexend="" bodybegin="\{" bodyend="\}" sep=";" />
         </Group>
     </Language>
 ```
