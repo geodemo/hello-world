@@ -12,7 +12,7 @@ Note: version 1.0 only works since **Notepad++ 6.x** !
 Installation
 ------------
 
-- if necessary [download](http://sourceforge.net/projects/npp-plugins/files/Function%20List/) and install Function List 2.1
+- if necessary, [download](http://sourceforge.net/projects/npp-plugins/files/Function%20List/) and install Function List 2.1
 - close Notepad++
 - copy `FunctionListRules.xml` and `php.bmp` into your Notepad++'s `plugins/Config` folder
 
@@ -110,6 +110,7 @@ If you already have some custom parsing rules and want to keep them, don't overw
 Contact
 -------
 
+- Author: [Geoffray Warnants](http://geoffray.be)
 [Geoffray Warnants](http://www.geoffray.be), send greetings [here](http://www.geoffray.be/blog/php/patch-php5-pour-npp-function-list) :)
 
 ChangeLog
