@@ -110,20 +110,22 @@ If you already have some custom parsing rules and want to keep them, don't overw
 Contact
 -------
 
-- [Geoffray Warnants](http://geoffray.be) ([Twitter](http://twitter.com/gwarnants), [Blog post](http://www.geoffray.be/blog/php/patch-php5-pour-npp-function-list)). You can contact me by mail using my twitter username @gmail.com
+- [Geoffray Warnants](http://geoffray.be) ([Twitter](http://twitter.com/gwarnants), [Blog](http://www.geoffray.be/blog/php/patch-php5-pour-npp-function-list)). You can contact me by mail using my twitter username @gmail.com
 
 ChangeLog
 ---------
 
 - **v1.0**
     - new: public constructor recognition
-    - fix: better methods recognition
+    - fix: better class properties and methods recognition
+    - fix: better static/final keywords support
     - fix: optimized icons file size
     - now using PCRE regular expressions (require Notepad++ 6.x)
 
 - **v0.9.1** - 2012-04-17
     - new: added CSS language parsing rules
     - fix: fixed properties parsing rules since Notepad++ 6.x
+    - fix: rewritten from default Function List configuration file
     - fix: some minor improvements
 
 - **v0.9** - 2010-12-11
