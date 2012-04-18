@@ -12,9 +12,9 @@ Installation
 
 - if necessary [download](http://sourceforge.net/projects/npp-plugins/files/Function%20List/) and install Function List 2.1
 - close Notepad++
-- unpack `FunctionListRules.xml` and `php.bmp` into your Notepad++'s `plugins\Config` folder
+- copy `FunctionListRules.xml` and `php.bmp` into your Notepad++'s `plugins/Config` folder
 
-If you already have some custom language parsing rules and don't want to loose them, just copy/paste the following blocks in your `FunctionListRules.xml`.
+If you already have some custom language parsing rules and don't want to loose them, don't overwrite `FunctionListRules.xml`. Merge the following blocks with your file :
 
 **PHP parsing rules**
 
